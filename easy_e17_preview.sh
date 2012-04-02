@@ -43,7 +43,7 @@ e_modules_extra="comp-scale engage net tiling xkbswitch"
 e_themes="darkness detourious efenniht"
 
 packages_basic="$efl_basic $bin_basic $e_themes"
-packages_half="$efl_basic $bin_basic $e_themes $e_modules_efl $e_modules_bin $e_modules_extra"
+packages_half="$efl_basic $bin_basic $e_modules_efl $e_modules_bin $e_modules_extra"
 packages_full="$efl_basic $bin_basic $e_themes $e_modules_efl $e_modules_bin $e_modules_extra $efl_extra $bin_extra"
 packagelist="basic"
 packages=$packages_basic
