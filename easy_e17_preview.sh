@@ -62,8 +62,8 @@ nice_level=0		# nice level (19 == low, -20 == high)
 os=$(uname)			# operating system
 threads=2			# make -j <threads>
 
-deps_bin="automake byacc g++ gcc libtool pkg-config"
-deps_dev="dbus-1 fontconfig freetype GL jpeg lua5.1 png rsvg-2 udev xml2 X11 Xext Xrandr xcb"
+deps_bin="automake g++ gcc libtool pkg-config"
+deps_dev="dbus-1 fontconfig freetype GL jpeg lua5.1 png rsvg-2 udev X11 Xext Xrandr xcb"
 
 animation="star"
 online_source="http://omicron.homeip.net/projects/easy_e17/easy_e17.sh"	# URL of latest stable release
